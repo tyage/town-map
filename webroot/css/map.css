@@ -1,0 +1,35 @@
+.unit {
+	position: absolute;
+}
+	.unit-title {
+		max-width: 70px;
+		overflow: hidden;
+		font-size: small;
+		white-space: nowrap;
+		border: 1px solid black;
+		background: white;
+		padding: 2px;
+	}
+		.ua-ie-7 .unit-title {
+			width: 70px;
+		}
+		.unit.user .unit-title {
+			background: #E5ECF9;
+		}
+		#self .unit-title {
+			background: #FF8;
+		}
+	.unit-image {
+		max-width: 32px;
+		max-height: 32px;
+	}
+		.ua-ie-6 .unit-image {
+			width: 32px;
+			height: 32px;
+		}
+
+.chat-message {
+	max-width: 220px;
+	max-height: 35px;
+	overflow: auto;
+}

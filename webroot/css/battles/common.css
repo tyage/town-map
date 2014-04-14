@@ -1,0 +1,60 @@
+#battleWindow {
+	width: 830px;
+}
+
+#users {
+}
+	#users .user {
+		float: left;
+		margin: 0px 36px;
+	}
+	.user {
+		width: 300px;
+		border: 2px solid #DDD;
+		border-radius: 10px;
+		padding: 10px;
+	}
+		.username {
+			text-align: center;
+		}
+		.user-data {
+			margin: 10px 0px 0px 0px;
+			width: 300px !important;
+		}
+	#vs {
+		float: left;
+		margin: 200px 0px 0px;
+		width: 30px;
+		font-weight: bold;
+		font-size: 20px;
+		color: red;
+	}
+
+.battle {
+	border: 1px solid #999;
+	padding: 20px 50px;
+	margin: 10px 0px 0px 0px;
+}
+	.opponent {
+		text-align: right;
+	}
+	.system {
+		text-align: center;
+		font-weight: bold;
+		font-size: 20px;
+		color: red;
+	}
+
+#command {
+	border: 1px solid #999;
+	padding: 20px;
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+}
+	#command-list {
+		margin: 10px auto 0 auto;
+	}
+		#command-list li {
+			display: inline;
+			margin: 0px 10px;
+		}

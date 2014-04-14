@@ -1,0 +1,35 @@
+#messages {
+	margin: 0px 0px 5px 0px;
+}
+	.message {
+		border-top: 1px solid #EBEBEB;
+		border-bottom: 1px solid #EBEBEB;
+		padding: 10px 0px;
+		margin: 0px 0px -1px;
+	}
+	.message:hover {
+		background: #eee;
+	}
+		.message-image {
+			float: left;
+			width: 50px;
+		}
+		.message-content {
+			float: left;
+			width: 500px;
+		}
+			.message-header {
+				margin: 0px 0px 3px;
+			}
+				.message-username {
+					font-weight: bold;
+					font-size: 15px;
+				}
+			.message-body {
+				font-size: 16px;
+				white-space: -moz-pre-wrap; /* Mozilla */
+				white-space: -pre-wrap;	/* Opera 4-6 */
+				white-space: -o-pre-wrap; /* Opera 7 */
+				white-space: pre-wrap; /* CSS3 */
+				word-wrap: break-word; /* IE 5.5+ */
+			}

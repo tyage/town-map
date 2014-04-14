@@ -1,0 +1,11 @@
+#mail-header {
+	margin: 0px 0px 10px;
+}
+	#mail-header h1 {
+		display: inline;
+		font-size: 25px;
+		margin: 0px 10px 0px 0px;
+	}
+	#mail-header h2 {
+		display: inline;
+	}

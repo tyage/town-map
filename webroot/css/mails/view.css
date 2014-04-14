@@ -1,0 +1,23 @@
+#mail-nav {
+	margin: 0px 0px 10px;
+}
+
+#mail-title {
+}
+	#mail-title h1 {
+		font-size: 20px;
+		display: inline;
+		margin: 0px 10px 0px 0px;
+	}
+
+#mail-users {
+	margin: 10px 0px 0px;
+}
+	.mail-user {
+		float: left;
+		margin: 0px 10px 0px 0px;
+	}
+
+#mail-message {
+	margin: 20px 0px 0px;
+}

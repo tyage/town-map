@@ -1,0 +1,266 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+	font-size: 15px;
+	background: white;
+}
+
+a {
+	color: #00C;
+}
+
+hr {
+	margin: 0.5em auto;
+}
+
+time {
+	font-size: 12px;
+}
+
+form {
+	margin: 10px 0px;
+}
+form label {
+	display: block;
+	width: 80px;
+	float: left;
+	clear: left;
+}
+.input {
+	margin: 5px 0px;
+}
+.data-input {
+	float: left;
+}
+.images label {
+	display: inline;
+	width: 0;
+	float: none;
+	clear: none;
+	
+	margin: 0px 10px 0px 0px;
+}
+div.submit {
+	margin: 10px 0px 0px 80px;
+}
+
+h1 {
+	margin: 0.5em 0px;
+	font-size: 200%;
+	font-weight: bold;
+}
+h2 {
+	margin: 10px 0 5px 0;
+}
+
+table {
+	background: #fff;
+	color: #333;
+	margin-bottom: 10px;
+	width: 100%;
+}
+th {
+	border-bottom: 2px solid #555;
+	text-align: left;
+	padding: 4px;
+	white-space: nowrap;
+}
+th a {
+	display: block;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+th a.asc:after {
+	content: '▲';
+}
+th a.desc:after {
+	content: '▼';
+}
+table tr td {
+	background: #fff;
+	padding: 6px;
+	vertical-align: top;
+	border-bottom: 1px solid #ddd;
+}
+table tr:nth-child(2n) td {
+	background: #f5f5f5;
+}
+
+dl {
+	line-height: 1.5;
+}
+
+dl.mini-list {
+	width: 450px;
+}
+	dl.mini-list dt {
+		float: left;
+		clear: left;
+		width: 40%;
+		font-weight: bold;
+		border-bottom: 2px solid #999;
+		padding: 5px 0px 0px;
+	}
+	dl.mini-list dd {
+		float: left;
+		width: 60%;
+		min-height: 22px;
+		border-bottom: 2px solid #ccc;
+		padding: 5px 0px 0px;
+	}
+
+p.lite-title {
+	margin: 10px 0px 5px 0px;
+	padding: 0px 0px 0px 5px;
+	font-size: 17px;
+	border-left: 2px solid #999;
+}
+
+.clearfix {
+	/zoom : 1;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.em {
+	border: 2px solid #ccc;
+}
+
+.small {
+	font-size: 12px;
+}
+
+.popup {
+	width: 30px;
+	height: 28px;
+	background: red;
+	position: relative;
+	border-radius: 5px;
+}
+	.popup .popup-arrow {
+		 border-left: 10px solid transparent;
+		 border-top: 10px solid red;
+		 position: absolute;
+		 bottom: 10px;
+		 left: -10px;
+	}
+	.popup .popup-text {
+		color: white;
+		font-weight: bold;
+		padding: 6px 0px 0px;
+		text-align: center;
+	}
+
+.switch {
+}
+	.switch-trigger {
+		float: left;
+		padding: 5px;
+		cursor: pointer;
+	}
+	.switch-trigger.selected {
+		border: none;
+		cursor: none;
+		color: white;
+		background: #777;
+	}
+	.switch-content {
+		padding: 7px;
+		border: 2px solid #777;
+	}
+
+.user-image {
+	max-width: 32px;
+	max-height: 32px;
+}
+
+.warn {
+	color: red;
+	font-weight: bold;
+	margin: 5px 0px;
+}
+
+#Header {
+	border-bottom: 1px solid #C9D7F1;
+	font-size: 13px;
+	padding: 5px 0px;
+	margin: 0px 0px 5px;
+	width: 100%;
+}
+	#HeaderLogo {
+		font-size: 20px;
+		float: left;
+		margin: 0px 0px 0px 10px;
+	}
+	#HeaderNav {
+		float: right;
+		padding: 3px 100px 0px 0px;
+	}
+		#HeaderNav li {
+			float: left;
+			margin: 0px 0px 0px 10px;
+		}
+
+#Side {
+	position: fixed;
+	z-index: 999;
+	top: 50px;
+}
+	#SideContent {
+		position: absolute;
+		left: -710px;
+		width: 680px;
+		height: 480px;
+		padding: 10px;
+		background: #777;
+		z-index: 10;
+		color: white;
+		border-bottom-right-radius: 10px 10px;
+	}
+		#SideLoading {
+			display: none;
+			position: absolute;
+			left: 20px;
+			font-size: 25px;
+			font-weight: bold;
+		}
+		#SideFrame {
+			height: 100%;
+			width: 100%;
+			background: #FFF;
+		}
+	#Sidebar {
+		position: absolute;
+	}
+		#Sidebar li {
+			position: relative;
+			width: 35px;
+			margin: 0px 0px -1px -50px;
+			padding: 5px 0px 5px 50px;
+			background: #ddd;
+			border: 1px solid #afafaf;
+			border-bottom-right-radius: 10px 10px;
+			border-top-right-radius: 10px 10px;
+			opacity: 0.6;
+			cursor: pointer;
+		}
+		#Sidebar li.selected {
+			opacity: 1;
+			margin-left: -30px;
+		}
+			#MailCheck {
+				position: absolute;
+				top: 0px;
+				left: 90px;
+				display: none;
+			}
+
+#Content {
+	padding: 0px 40px 10px 45px;
+}
